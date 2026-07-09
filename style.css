@@ -10,6 +10,10 @@ nav {
     margin: 20px 40px;
 }
 
+.logo-mini{
+    display: flex;
+    gap: 10px;
+}
 nav div ul {
     display: flex;
     gap: 20px;
@@ -28,3 +32,15 @@ button {
     padding: 10px 10px;
     border-radius: 10%;
 }
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/banner.jpg');
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
