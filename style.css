@@ -1,0 +1,30 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    margin: 20px 40px;
+}
+
+nav div ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+   
+}
+
+a {
+    text-decoration: none;
+    color: #575757;
+}
+
+button {
+    background-color: #1D4ED8;
+    color: #FFFFFF;
+    padding: 10px 10px;
+    border-radius: 10%;
+}
