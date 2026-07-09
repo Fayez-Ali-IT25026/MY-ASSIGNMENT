@@ -30,11 +30,12 @@ a {
     color: #575757;
 }
 
-button {
+button , .pricecard-btn-pro{
     background-color: #1D4ED8;
     color: #FFFFFF;
     padding: 10px 10px;
     border-radius: 10%;
+    
 }
 
 header {
@@ -70,7 +71,7 @@ header {
     
 }
 
-.section-h2 {
+.section-h2 , .pricecard-p {
     text-align: center;
     font-size: 30px;
 }
@@ -101,4 +102,46 @@ span {
 .Meet-the-Speakers div p {
     color: #575757;
     font-size: 10px;
+}
+
+.pricecard-text {
+    text-align: center;
+}
+
+.price-card {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.price-card div {
+     border: 1px solid gray;
+    border-radius: 2%;
+    padding: 30px;
+
+}
+
+.pricecard-btn {
+    background-color: #FFFFFF;
+    border: 1px solid blue;
+    color: #2563EB;
+     width: 85%;
+    margin-top: 10px;
+
+}
+
+.pricecard-btn-pro {
+    width: 85%;
+    margin-top: 10px;
+
+}
+
+.pricecard-div-pro {
+    background-color: #0D1B2A;
+    color: #FFFFFF;
+
+}
+
+section div ul li {
+    margin-top: 5px;
 }
