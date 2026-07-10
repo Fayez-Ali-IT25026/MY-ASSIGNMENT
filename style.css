@@ -144,4 +144,35 @@ span {
 
 section div ul li {
     margin-top: 5px;
+    
+}
+
+footer {
+    background-color: #0D1B2A;
+    padding: 50px 50px;
+   ;
+}
+
+.logo {
+    display: flex;
+    gap: 10px;
+}
+
+.logo p {
+    color: #FFFFFF;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+
+}
+
+.copyright {
+    display: grid;
+    justify-content: center;
+    color: #FFFFFF;
+    margin-top: 30px;
 }
