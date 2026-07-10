@@ -110,6 +110,11 @@ span {
     text-align: center;
 }
 
+.pricecard-h2 {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
 .price-card {
     display: flex;
     justify-content: space-between;
