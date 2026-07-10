@@ -35,6 +35,7 @@ button , .pricecard-btn-pro{
     color: #FFFFFF;
     padding: 10px 10px;
     border-radius: 10%;
+    cursor: pointer;
     
 }
 
@@ -127,12 +128,14 @@ span {
     color: #2563EB;
      width: 85%;
     margin-top: 10px;
+    cursor: pointer;
 
 }
 
 .pricecard-btn-pro {
     width: 85%;
     margin-top: 10px;
+    cursor: pointer;
 
 }
 
