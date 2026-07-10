@@ -24,7 +24,9 @@ nav div ul {
     list-style: none;
    
 }
-
+nav div ul li:hover {
+    color: #1D4ED8;
+}
 a {
     text-decoration: none;
     color: #575757;
@@ -178,4 +180,55 @@ footer {
     justify-content: center;
     color: #FFFFFF;
     margin-top: 30px;
+}
+
+.gallery-top {
+    text-align: center;
+}
+
+.gallery-top h2 {
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.gallery-pic {
+    margin-top: -50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    grid-auto-rows: 250px;
+    grid-template-areas: 
+    "one two three"
+    "one five three"
+    "four five six" ;
+}
+
+.gallery-pic img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.pic-1 {
+    grid-area: one ;
+}
+
+.pic-2 {
+    grid-area: two ;
+}
+
+.pic-3 {
+    grid-area: three ;
+}
+
+.pic-4 {
+    grid-area: four ;
+}
+
+.pic-5 {
+    grid-area: five ;
+}
+
+.pic-6 {
+    grid-area:six;
 }
