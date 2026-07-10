@@ -24,9 +24,7 @@ nav div ul {
     list-style: none;
    
 }
-nav div ul li:hover {
-    color: #1D4ED8;
-}
+
 a {
     text-decoration: none;
     color: #575757;
@@ -36,7 +34,7 @@ button , .pricecard-btn-pro{
     background-color: #1D4ED8;
     color: #FFFFFF;
     padding: 10px 10px;
-    border-radius: 10%;
+    border-radius:8px;
     cursor: pointer;
     
 }
@@ -131,6 +129,7 @@ span {
      width: 85%;
     margin-top: 10px;
     cursor: pointer;
+    border-radius:8px;
 
 }
 
@@ -138,6 +137,7 @@ span {
     width: 85%;
     margin-top: 10px;
     cursor: pointer;
+    border-radius:8px;
 
 }
 
